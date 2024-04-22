@@ -11,6 +11,13 @@
     border-radius: 10px;
      background-color: #fafafa;
     width: 500px;
+    transition: 1s;
+    /* border: 1px solid red; */
+  }
+  .card:hover 
+  {
+transform: scale(1.2);
+z-index: 2;
   }
 
   .card img {
@@ -35,6 +42,10 @@
     background-color: #fbd9cf;
     border-radius: 10px;
     font-weight: bold;
+  }
+  .btn:hover{
+    background-color: aqua;
+    border: 5px solid black;
   }
   .cont h3 {
     font-size: 20px;
